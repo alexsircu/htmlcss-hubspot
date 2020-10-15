@@ -3,28 +3,106 @@
   margin: 0;
   padding: 0;
 }
+.block {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  /* background: red; */
+}
+.button {
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 5%;
+  border: 1px solid #fe775a;
+  background: #fe775a;
+  color: white;
 
 }
+/* header della pagina */
 header {
   width: 100%;
-  /* height: 1000px; */
-  background: red;
+  background-color: f4f9fd;
 }
+/* header sopra */
 .header-top {
   width: 100%;
   height: 100px;
-  background: lightgrey;
 }
+.header-top-left {
+  width: 50%;
+  height: 100%;
+  padding-top: 38px;
+  float: left;
+}
+#language, #contacts {
+  display: inline-block;
+  font-size: 20px;
+}
+#language {
+  padding-right: 20px;
+}
+#contacts {
+  padding-left: 20px;
+  border-left: 1px solid black;
+}
+.header-top-right {
+  width: 50%;
+  height: 100%;
+  padding-top: 31px;
+  float: left;
+}
+.header-top-right > .button {
+  padding: 10px;
+  font-size: 15px;
+  float: right;
+}
+#log-in {
+  padding: 10px;
+  margin: 0 20px;
+  font-size: 15px;
+  background: white;
+  color: #fe775a;
+  float: right;
+}
+#search {
+  text-align: center;
+  padding-top: 14px;
+  color: #92d4e1;
+  float: right;
+}
+/* /header sopra */
+/* header sotto */
 .header-bottom {
   width: 100%;
   height: 100px;
   background: white;
 }
+.header-bottom-left {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+.header-bottom-right {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+.menu {
+  width: 100%;
+  list-style: none;
+}
+.menu > li {
+  display: inline-block;
+}
+/* /header sotto */
 .jumbotron {
   width: 100%;
   height: 800px;
   background: pink;
 }
+/* /header della pagina */
 .divider {
   width: 100%;
   height: 100px;
@@ -32,6 +110,7 @@ header {
   border-bottom: 3px solid black;
   background: #afebe4
 }
+/* main della pagina */
 main {
   width: 100%;
   height: 1000px;
@@ -39,20 +118,20 @@ main {
 }
 .sezione-1 {
   width: 100%;
-  height:20%;
+  height:33.3%;
   background: purple;
 }
 .sezione-2 {
   width: 100%;
-  height:20%;
+  height:33.3%;
   background: brown;
 }
 .sezione-3 {
   width: 100%;
-  height:20%;
+  height:33.3%;
   background: yellow;
 }
-
+/* /main della pagina */
 footer {
   width: 100%;
   height: 1000px;
