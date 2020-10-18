@@ -179,7 +179,6 @@ main {
 /* prima sezione del main */
 .section-1 {
   width: 100%;
-  height:34%;
   background: #F4F9FD;
 }
 /* blocco superiore della prima sezione del main*/
@@ -263,7 +262,6 @@ main {
 
 .container-section1-top {
   width: 100%;
-  height: 60%;
   padding-top: 10px;
   text-align: center;
 }
@@ -274,7 +272,6 @@ main {
 
 .container-section1-bottom {
   width: 80%;
-  height: 40%;
   padding: 10px;
   border-top: 2px solid #33475B;
   margin: 0 auto;
@@ -296,8 +293,47 @@ main {
 /* seconda sezione del main */
 .section-2 {
   width: 100%;
-  height:33%;
-  background: brown;
+  padding-bottom: 100px;
+  background-image: linear-gradient(to top right, #00ADB6, #00BBA7);
+  color: #FFFFFF;
+}
+#section2-top {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+#section2-top-title {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+#section2-bottom-1 {
+  border-bottom: 1px solid #FFFFFF;
+}
+.square-section2 {
+  width: 25%;
+  height: 200px;
+  border-right: 1px solid #FFFFFF;
+  text-align: center;
+  float: left;
+}
+.image-square {
+  width: 130px;
+  height: 40px;
+  margin-top: 20px;
+}
+#section2-bottom .square-section2:last-child {
+  border-right: 0;
+}
+.square-section2 h2 {
+ margin: 20px 0;
+ font-size: 45px;
+ position: relative;
+}
+.plus {
+  font-size: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 15px;
 }
 /* /seconda sezione del main */
 
