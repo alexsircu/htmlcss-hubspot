@@ -121,13 +121,13 @@ header {
 }
 .header-nav-left {
   height: 100%;
-  line-height: 120px;
+  line-height: 100px;
   display: inline-block;
   float: left;
 }
 .logo {
   height: 40px;
-
+  vertical-align: middle;
 }
 .header-nav-right {
   height: 100%;
@@ -247,7 +247,7 @@ main {
 /* 3 blocchi inferiori della prima sezione del main */
 .container.contain-3blocks {
   background: #F4F9FD;
-  height: 650px;  /* avrei voluto non usare la height ma collassa tutto */
+  padding-bottom: 50px;
 }
 .contain-3blocks h2 {
   padding: 30px 0;
@@ -476,7 +476,7 @@ footer {
   width: 100%;
   border-bottom: 1px solid #CBD6E2;
 }
-footer > .container {
+#footer-middle {
   text-align: center;
 }
 #languages-list {
