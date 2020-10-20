@@ -227,6 +227,10 @@ main {
 #crm-bottom-right p {
   padding-bottom: 30px;
 }
+#div-horizontal-line {
+  font-size: 20px;
+  font-weight: bold;
+}
 #horizontal-line {
   width: 400px;
   height: 3px;
@@ -235,7 +239,7 @@ main {
   background-color: #33475B;
   display: inline-block;
 }
-#check {
+.check {
   padding-right: 10px;
   color: #FE775A;
 }
